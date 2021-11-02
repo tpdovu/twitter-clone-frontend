@@ -2,7 +2,7 @@ import React from "react";
 import "./Feed.css";
 import TweetBox from "./TweetBox.js";
 import Post from "./Post.js";
-import Axios from "axios";
+// import Axios from "axios";
 
 function Feed() {
   return (
@@ -13,7 +13,7 @@ function Feed() {
 
       {/* tweet box */}
       <TweetBox />
-      
+
       {/* post */}
       <Post />
       <Post />

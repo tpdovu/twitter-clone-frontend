@@ -18,16 +18,16 @@ function Widgets() {
 
       <div className="widgets__widgetContainer">
         <h2>What's happening</h2>
-        <TwitterTweetEmbed tweetId={"695638866993115136"} />
+        <TwitterTweetEmbed tweetId={"1454806974546137088"} />
         <TwitterTimelineEmbed
           sourceType="profile"
-          screenName="benshapiro"
+          screenName="riotgames"
           options={{ height: 400 }}
         />
 
         <TwitterShareButton
-          url={"https://www.facebook.com/officialbenshapiro"}
-          options={{ text: "sample tweets", via: "benshapiro" }}
+          url={"https://www.facebook.com/RiotGames/"}
+          options={{ text: "sample tweets", via: "riotgames" }}
         />
       </div>
     </div>
